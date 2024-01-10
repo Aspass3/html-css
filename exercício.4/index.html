@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Div</title>
+    <style>
+        .div {
+            text-align: center;
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            display: inline-block;
+            border-radius: 50px;
+        }
+
+        div:hover {
+            background-color: chartreuse;
+        }
+
+        div>p {
+            display: none;
+        }
+
+        div:hover>p {
+            display: block
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(255, 0, 0);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Divs</h1>
+    <div class="div">01</div>
+    <div class="div">02</div>
+    <div class="div">03</div>
+    <div class="div">04</div>
+    <p>Pra criar esse efeito, use isso <br>
+    <pre>
+            .div{
+                text-align: center;
+                background-color: aqua;
+                height: 100px;
+                width: 100px;
+                border: 1px solid black;
+                display: inline-block;
+            }
+            div:hover{
+                background-color: chartreuse;
+            }
+        </pre>
+    </p>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse por cima!</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido!</p>
+    </div>
+    <p>Para ter esse efeito use isso</p>
+    <pre>
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block
+        }
+        div:hover{
+            color: red;
+        }
+    </pre>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/sou_ezes/" target="_blank">Meu Instagran</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100041591201316" target="_blank">Meu Facebook</a></li>
+    </ul>
+    <p>Para ter esse efeito use isso</p>
+    <pre>
+        a{
+            color: aqua;
+        }
+        a:visited{
+            color: rgb(255, 0, 0);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blueviolet;
+        }
+    </pre>
+    <p>meu cu tá doendo </p>
+</body>
+
+</html>

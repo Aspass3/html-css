@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #8E4AF0, #EB6557);
+    }
+main{
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    text-indent: 5px;
+
+}
+.center{
+    font-style: italic;
+    color: #EB577F;
+}
+h2{
+    font-style: oblique;
+    color: #EB57D7;
+}
+h1{
+    color: #8a23ad;
+    font-style: oblique; 
+    text-align: center;
+}
